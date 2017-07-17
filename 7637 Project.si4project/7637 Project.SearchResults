@@ -1,0 +1,5 @@
+---- ap_storage_service_cyclic_record_file_open_hand... Matches (4 in 4 files) ----
+ap_storage_service.c (application\task_storage_service\src) line 1615 : void ap_storage_service_cyclic_record_file_open_handle(INT8U type)
+ap_storage_service.h (application\task_storage_service\inc) line 29 : extern void ap_storage_service_cyclic_record_file_open_handle(INT8U type);
+task_storage_service_entry in task_storage_service.c (application\task_storage_service\src) : 				ap_storage_service_cyclic_record_file_open_handle(storage_service_para[0]);
+task_storage_service.h (application\task_storage_service\inc) line 22 : 	extern void ap_storage_service_cyclic_record_file_open_handle(INT8U type);
